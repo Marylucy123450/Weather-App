@@ -38,6 +38,26 @@
 
 </div>
 
+<script>
+
+const apikey = "5201cd43f5771108e6bfad74404aba48";
+const apiUrl = "https://api.openweathermap.org/data/2.5/weather?units=metric&q=bangalore";
+
+
+async function checkWeather(){
+  const response = await fetch(apiUrl + `&appid = ${apiKey}`);
+  var data = await response.jspn();
+
+  console.log(data);
+
+  document.querySelector(".city").innerHTML = data.name;
+  document.querySelector(".temp").innerHTML = data.main.temp + "°C";
+  document.querySelector(".humudity").innerHTML = data.main.humidity + "%";
+  document.querySelector(".wind").innerHTML = data.wind.speed + "km/hr";
+} 
+
+checkWeather()
+</script>
 
 
   
