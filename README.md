@@ -31,15 +31,15 @@ Make sure you have the following installed on your computer:
 **Technologies Used**
 
 
-.HTML
-.CSS
-.JavaScript
-.OpenWeather API
+.HTML <br>
+.CSS  <br>
+.JavaScript <br>
+.OpenWeather API<br>
 
 **License**
 
 
 This project is open-source and available under the MIT License.
 
-**Author**
+**Author** <br>
 Marylucy Atieno
