@@ -29,15 +29,17 @@ Make sure you have the following installed on your computer:
 .The weather details, including temperature, humidity, and wind speed, will be displayed, along with an icon representing the weather condition.
 
 **Technologies Used**
+
+
 .HTML
 .CSS
 .JavaScript
 .OpenWeather API
 
 **License**
+
+
 This project is open-source and available under the MIT License.
 
 **Author**
 Marylucy Atieno
-github(Marylucy123450)
-linkedin(https://www.linkedin.com/in/marylucy-atieno-developer)
